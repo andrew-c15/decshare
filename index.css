@@ -1,0 +1,22 @@
+.myDIV {
+    background-color:lightblue;
+    transform:translateX(10px);
+}
+.button-like {
+  border: 2px solid $dark-gray;
+  background-color: transparent;
+  text-decoration: none;
+  padding: 1rem;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  border-radius: 3rem;
+  color: $dark-gray;
+  transition: all ease 0.4s;
+}
+
+.liked {
+  background-color: red;
+  color: white;
+}
