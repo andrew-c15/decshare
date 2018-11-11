@@ -1,158 +1,170 @@
 <html lang="en">
-    <head>
-        <!-- Required meta tags -->     
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      
-	<!-- Internal CSS -->
-	<link rel="stylesheet" href="index.css">
-	<script type="text/javascript" src="script.js"></script>
-	    
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-      <title>DecShare</title>
-        <style type="text/css">
-            .row div {
-                border: 1px solid silver;
-            }
-       
-        </style>
-      <style type="text/css">
-   body { background: white !important; } 
-</style>
-        <link href="https://fonts.googleapis.com/css?family=KoHo|Poppins|Source+Sans+Pro" rel="stylesheet">
-    </head>
-    <body class="myDIV">
-     <nav class="navbar navbar-expand-lg navbar-light bg-light">
- <a class="navbar-brand" href="#">
-    <img src="https://image.ibb.co/nifshq/doiahda.png" width="30" height="30" class="d-inline-block align-top" alt="">
-    DECSHARE
-  </a>  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Your Feed <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Referrals</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <img src="http://deafhhcenter.org/wp-content/uploads/2017/12/profile-default.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <title>DecShare</title>
+    <style type="text/css">
+        .row div {
+            border: 1px solid silver;
+        }
+    </style>
+    <style type="text/css">
+        body {
+            background: white !important;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=KoHo|Poppins|Source+Sans+Pro" rel="stylesheet">
+</head>
+
+<body class="myDIV">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="https://image.ibb.co/nifshq/doiahda.png" width="30" height="30" class="d-inline-block align-top" alt=""> DECSHARE
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Sign out</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Your Feed <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Referrals</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="http://deafhhcenter.org/wp-content/uploads/2017/12/profile-default.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Sign out</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#"></a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
         </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#"></a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
-      <br>
-<div class="dropdown" style="position:relative;right=">
-  <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
-    Most recent
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-  </div>
-   <br><br>
-      </div>
-      
-      <div style="background-color:whitesmoke;border-width: 20;height:600px;width:600px  ">
- 
-<div id="container" style="white-space:nowrap">
-<div id="commentbox" style="position: absolute;left:600px;width:300px;height:630px;background-color:whitesmoke;font-family:Poppins">
-     </div>
-    <div id="image" style="display:inline">
-        <img src="http://deafhhcenter.org/wp-content/uploads/2017/12/profile-default.jpg" height=30;width=30/>
+    </nav>
+    <br>
+    <div class="dropdown" style="position:relative;right=">
+        <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Most recent
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+        </div>
+        <br>
+        <br>
     </div>
 
-    <p style="display:inline; white-space:nowrap;font-family: Poppins"> 
-        @helloworld
-    </p>
+    <div style="background-color:whitesmoke;border-width: 20;height:600px;width:600px  ">
 
-</div>
+        <div id="container" style="white-space:nowrap">
+            <div id="commentbox" style="position: absolute;left:600px;width:300px;height:630px;background-color:whitesmoke;font-family:Poppins">
+            </div>
+            <div id="commentbox" style="position: absolute;left:1000px;width:300px;height:1000px;background-color:whitesmoke;font-family:Poppins">
+                <div style="width: 160px; background: #428bca; color: #fff; line-height: 1000px; text-align: center; ">SKYSCRAPER</div>
+            </div>
+            <div id="image" style="display:inline">
+                <img src="https://via.placeholder.com/160x1000.png?text=Visit+DECShare.com%20C/O%20https://placeholder.com/" height=30;width=30/>
+
+            </div>
+
+            <p style="display:inline; white-space:nowrap;font-family: Poppins">
+                @helloworld
+            </p>
+
+        </div>
         <img src="http://78.media.tumblr.com/1c7aa7721e81688c25c0491a071f1712/tumblr_mx0ax3Uuus1slkd1ro1_500.jpg" height=600; width=620;class="absolute" alt="@helloworld">
-  
-</div>
- <div class="container" style="position:absolute;left:600px;width:600px;height:630px;top:170px">
-    <div class="col-lg-4 col-sm-6 col-md-6 col-xl-6 text-center">
-    <div class="well">
-        <h4>Comments</h4>
-    <div class="input-group" >
-        <input type="text" id="userComment" class="form-control input-sm chat-input" placeholder="Thoughts?" />
-	    <span class="input-group-btn" onclick="addComment()">     
+
+    </div>
+    <div class="container" style="position:absolute;left:600px;width:600px;height:630px;top:170px">
+        <div class="col-lg-4 col-sm-6 col-md-6 col-xl-6 text-center">
+            <div class="well">
+                <h4>Comments</h4>
+                <div class="input-group">
+                    <input type="text" id="userComment" class="form-control input-sm chat-input" placeholder="Thoughts?" />
+                    <span class="input-group-btn" onclick="addComment()">     
             <a href="#" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-comment"></spa n> + </a>
         </span>
-    </div>
-    <hr data-brackets-id="12673">
-    <ul data-brackets-id="12674" id="sortable" class="list-unstyled ui-sortable">
-        <strong class="pull-left primary-font">@facebook</strong>
-        <small class="pull-right text-muted">
+                </div>
+                <hr data-brackets-id="12673">
+                <ul data-brackets-id="12674" id="sortable" class="list-unstyled ui-sortable">
+                    <strong class="pull-left primary-font">@facebook</strong>
+                    <small class="pull-right text-muted">
            <span class="glyphicon glyphicon-time"></span>7 mins ago</small>
-        </br>
-        <li class="ui-state-default">Me too! </li>
-        </br>
-         <strong class="pull-left primary-font">@twitter</strong>
-        <small class="pull-right text-muted">
+                    </br>
+                    <li class="ui-state-default">Me too! </li>
+                    </br>
+                    <strong class="pull-left primary-font">@twitter</strong>
+                    <small class="pull-right text-muted">
            <span class="glyphicon glyphicon-time"></span>14 mins ago</small>
-        </br>
-        <li class="ui-state-default">We leaked your data!</li>
-   </br>
-         <strong class="pull-left primary-font">@cbridgeanalytica</strong>
-        <small class="pull-right text-muted">
+                    </br>
+                    <li class="ui-state-default">We leaked your data!</li>
+                    </br>
+                    <strong class="pull-left primary-font">@cbridgeanalytica</strong>
+                    <small class="pull-right text-muted">
            <span class="glyphicon glyphicon-time"></span>18 mins ago</small>
-      
-        </br>
-  
-        <li class="ui-state-default">:(</li>
-  <br><br><br><br><br><br><br><br><br><button class="button button-like lbtn" onclick="fnc()" id="lkbt">
-  <i class="fa fa-heart"></i>
-  <span>Like</span>
-</button>
 
-        
-    </ul>
+                    </br>
+
+                    <li class="ui-state-default">:(</li>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <button class="button button-like lbtn" onclick="fnc()" id="lkbt">
+                        <i class="fa fa-heart"></i>
+                        <span>Like</span>
+                    </button>
+
+                </ul>
+            </div>
+        </div>
     </div>
-</div>
-</div>
-<br><br><br><br>
-<div style="position:absolute;background-color:whitesmoke;border-width: 20;height:200px;width:900px;left=1000px"> 
-<div id="image" style="display:inline">
-        <img src="http://deafhhcenter.org/wp-content/uploads/2017/12/profile-default.jpg" height=30;width=30/>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div style="position:absolute;background-color:whitesmoke;border-width: 20;height:230px;width:900px;left=1000px">
+        <div id="image" style="display:inline">
+            <img src="http://deafhhcenter.org/wp-content/uploads/2017/12/profile-default.jpg" height=30;width=30/>
+        </div>
+
+        <p style="display:inline; white-space:nowrap;font-family: Poppins">
+            @books4lyfe
+            <br>
+            <br>
+            <p style="display:inline;white-space:nowrap;font-family: Poppins">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                <br> magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                <br> consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                <br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            <br>
+            <button class="button button-like lbtn2" onclick="fnc2()" id="lkbt2">
+                <i class="fa fa-heart"></i>
+                <span>Like</span>
+            </button>
+
+        </p>
     </div>
 
-    <p style="display:inline; white-space:nowrap;font-family: Poppins"> 
-        @books4lyfe
-      <br>
-      <br>
-  <p style="display:inline;white-space:nowrap;font-family: Poppins">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore<br> magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo<br> consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-<br>
-<button class="button button-like lbtn2" onclick="fnc2()" id="lkbt2">
-  <i class="fa fa-heart"></i>
-  <span>Like</span>
-</button> 
-  
-  </p>
-</div>
+</body>
 
-
-
-    
-  
-  
-    </body>
 </html>
