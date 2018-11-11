@@ -6,7 +6,8 @@
       
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <title>Hello, world!</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+      <title>DecShare</title>
         <style type="text/css">
             .row div {
                 border: 1px solid silver;
@@ -18,7 +19,7 @@
 </style>
         <link href="https://fonts.googleapis.com/css?family=KoHo|Poppins|Source+Sans+Pro" rel="stylesheet">
     </head>
-    <body>
+    <body class="myDIV">
      <nav class="navbar navbar-expand-lg navbar-light bg-light">
  <a class="navbar-brand" href="#">
     <img src="https://image.ibb.co/nifshq/doiahda.png" width="30" height="30" class="d-inline-block align-top" alt="">
@@ -83,14 +84,14 @@
         <img src="http://78.media.tumblr.com/1c7aa7721e81688c25c0491a071f1712/tumblr_mx0ax3Uuus1slkd1ro1_500.jpg" height=600; width=620;class="absolute" alt="@helloworld">
   
 </div>
- <div class="container" style="position:absolute;left:600px;width:800px;height:630px;top:170px">
-    <div class="col-lg-4 col-sm-6 text-center">
+ <div class="container" style="position:absolute;left:600px;width:600px;height:630px;top:170px">
+    <div class="col-lg-4 col-sm-6 col-md-6 col-xl-6 text-center">
     <div class="well">
         <h4>Comments</h4>
     <div class="input-group" >
         <input type="text" id="userComment" class="form-control input-sm chat-input" placeholder="Thoughts?" />
 	    <span class="input-group-btn" onclick="addComment()">     
-            <a href="#" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-comment"></spa n> Add Comment</a>
+            <a href="#" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-comment"></spa n> + </a>
         </span>
     </div>
     <hr data-brackets-id="12673">
@@ -107,11 +108,18 @@
         </br>
         <li class="ui-state-default">We leaked your data!</li>
    </br>
-         <strong class="pull-left primary-font">@cambridgeanalytica</strong>
+         <strong class="pull-left primary-font">@cbridgeanalytica</strong>
         <small class="pull-right text-muted">
            <span class="glyphicon glyphicon-time"></span>18 mins ago</small>
+      
         </br>
+  
         <li class="ui-state-default">:(</li>
+  <br><br><br><br><br><br><br><br><br><button class="button button-like lbtn" onclick="fnc()" id="lkbt">
+  <i class="fa fa-heart"></i>
+  <span>Like</span>
+</button>
+
         
     </ul>
     </div>
@@ -128,7 +136,13 @@
       <br>
       <br>
   <p style="display:inline;white-space:nowrap;font-family: Poppins">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore<br> magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo<br> consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-    </p>
+<br>
+<button class="button button-like lbtn2" onclick="fnc2()" id="lkbt2">
+  <i class="fa fa-heart"></i>
+  <span>Like</span>
+</button> 
+  
+  </p>
 </div>
 
 
