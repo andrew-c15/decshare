@@ -15,6 +15,7 @@
   color: $dark-gray;
   transition: all ease 0.4s;
   outline:none;
+  cursor: pointer;
 }
 
 .button-like:focus {
